@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>P.6 Webpage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1><img src="Picture/บ้านนา.png" class="icon" alt="icon"></h1>
+    <h2>P.6 Student Webpage</h2>
+    <nav>
+      <button onclick="showPage('general')">General Info</button>
+      <button onclick="showPage('gallery')">Students List</button>
+      <button onclick="showPage('documents')">Documents</button>
+    </nav>
+    <p>
+      <audio id="bg-music" autoplay loop hidden>
+      <source src="bt.mp3" type="audio/mpeg">
+      </audio>
+    </p>
+  </header>
+
+  <main>
+    <section id="general" class="page">
+      <h1>ยินดีต้อนรับสู่ห้องเรียน ป.6 ปีการศึกษา 2568</h1>
+      <p>เว็บไซต์นี้จัดทำขึ้นเพื่อรวบรวมข้อมูลของห้องเรียน ป.6 รวมถึงผลงานนักเรียน กิจกรรมต่าง ๆ และข่าวสารสำหรับนักเรียนและผู้ปกครอง</p>
+      <h1>📰 ข่าวสารประชาสัมพันธ์ 📢</h1>
+      <div class="scroll-box">
+        ⭐ วันพุธที่ 9 กรกฎาคม 2568 ➡️ นักเรียนเข้าร่วมกิจกรรมวันเข้าพรรษา ประจำปี 2568 ณ วัดบ้านนา </br>
+        🌟 วันพฤหัสบดีที่ 10 กรกฎาคม 2568 ➡️ หยุดเรียนเนื่องในวันอาสาฬหบูชา </br>
+        ⭐ วันศุกร์ที่ 11 กรกฎาคม 2568 ➡️ หยุดเรียนเนื่องในวันเข้าพรรษา </br>
+        🌟 วันจันทร์ที่ 28 กรกฎาคม 2568 ➡️ หยุดเรียนเนื่องในวันเฉลิมพระชนมพรรษา พระบาทสมเด็จพระวชิรเกล้าเจ้าอยู่หัว รัชกาลที่ 10 </br>
+        ⭐ วันจันทร์ที่ 4 - วันพุธที่ 6 สิงหาคม 2568 ➡️ งานแข่งกีฬานักเรียนโรงเรียนกลุ่มตำบลบ้านนา ณ โรงเรียนบ้านปลวกสูง </br>
+        🌟 วันศุกร์ที่ 8 สิงหาคม 2568 ➡️ กิจกรรมวันแม่แห่งชาติ 2568 โรงเรียนวัดบ้านนา </br>
+        ⭐ วันจันทร์ที่ 11 - วันอังคารที่ 12 สิงหาคม 2568 ➡️ หยุดเรียนเนื่องในวันแม่แห่งชาติ 2568 </br>
+      </div>
+      <h3>ช่องทางติดต่อครู 📱</h3>
+      <p>สามารถติดต่อ ครูพงศ์กีรติ ได้ที่: <br />
+      📧 อีเมล: schoolwatbanna@gmail.com <br />
+      💚 Line ID: @ton.keerati <br />
+      📞 โทรศัพท์: 081-627-1396
+      </p>
+    </section>
+
+    <section id="gallery" class="page" style="display: none;">
+      <h1>P.6 Students List (รายชื่อนักเรียนชั้น ป.6 ปีการศึกษา 2568)</h1>
+      <div class="gallery">
+        <div class="student-card">
+          <img src="Picture/No1.png" alt="Q">
+          <p>เด็กชาย ปรมัตถ์ ผมพันธ์</p>
+          <p>(Porramut Pompun)</p>
+          <p2> No.1 </p2>
+        </div>
+        <div class="student-card">
+          <img src="Picture/No2.png" alt="Ace">
+          <p>เด็กชาย ธนวัฒน์ ทองเงิน</p>
+          <p>(Thanawat Thong-nguen)</p>
+          <p2> No.2 </p2>
+        </div>
+        <div class="student-card">
+          <img src="Picture/No3.png" alt="Tee">
+          <p>เด็กชาย ศุภณัฐ นาควิจิตร</p>
+          <p>(Supanat Nakvijit)</p>
+          <p2> No.3 </p2>
+        </div>
+        <div class="student-card">
+          <img src="Picture/No4.png" alt="Nurse">
+          <p>เด็กชาย กฤษกร บุญยิ้ม</p>
+          <p>(Kritsakorn Bunyim)</p>
+          <p2> No.4 </p2>
+        </div>
+        <div class="student-card">
+          <img src="Picture/No5.png" alt="Gam">
+          <p>เด็กหญิง จิรณัฐ กะกามัน</p>
+          <p>(Jiranat Kakaman)</p>
+          <p2> No.5 </p2>
+        </div>
+        <div class="student-card">
+          <img src="Picture/No6.png" alt="Aom">
+          <p>เด็กหญิง จารุพิชญา บุญโห้</p>
+          <p>(Jarupitchaya Bunho)</p>
+          <p2> No.6 </p2>
+        </div>
+        <div class="student-card">
+          <img src="Picture/No7.png" alt="Tahm">
+          <p>เด็กชาย ธนดล เกตุงาม</p>
+          <p>(Thanadol Ketngarm)</p>
+          <p2> No.7 </p2>
+        </div>
+        <div class="student-card">
+          <img src="Picture/No8.png" alt="Fate">
+          <p>เด็กชาย ธนิสร คุ้มขัง</p>
+          <p>(Thanisorn Khumkhang)</p>
+          <p2> No.8 </p2>
+        </div>
+        <div class="student-card">
+          <img src="Picture/No9.png" alt="Film">
+          <p>เด็กชาย ทินภัทร โชติพ่วง</p>
+          <p>(Tinnaphat Chotphuang)</p>
+          <p2> No.9 </p2>
+        </div>
+        <div class="student-card">
+          <img src="Picture/No10.png" alt="Garfield">
+          <p>เด็กชาย กิตติวัฒน์ กันหล้า</p>
+          <p>(Kittiwat Kanlah)</p>
+          <p2> No.10 </p2>
+        </div>
+        <div class="student-card">
+          <img src="Picture/No11.png" alt="Mhai">
+          <p>เด็กหญิง อภิชา ชูรอดภัย</p>
+          <p>(Aphicha Choorodphai)</p>
+          <p2> No.11 </p2>
+        </div>
+
+      </div>
+    </section>
+    <section id="documents" class="page">
+      <h1>Class Documents</h1>
+      <div class="documents">
+        <a href="https://docs.google.com/spreadsheets/d/1fpjT8_APzATAEHe4snhH_t5huT70po1fDv2Pm8yTGEw/edit?usp=sharing" class="documents-card">
+          <img src="Picture/Checklist.png" alt="Checklist">
+          <p>ตรวจสอบเวลาเรียน</p>
+        </a>
+        <a href="https://docs.google.com/spreadsheets/d/1Y60l29McOU4WNUJPcqBXmk7T1KxSmm2CNwQkw5a3ZVc/edit?usp=sharing" class="documents-card">
+          <img src="Picture/Health.png" alt="Health">
+          <p>ตรวจสอบบันทึกภาวะการเจริญเติบโต</p>
+        </a>
+        <a href="https://pongkeerati.github.io/Balance-Checker/" class="documents-card">
+          <img src="Picture/Money.png" alt="Money">
+          <p>บันทึกการออมเงินนักเรียน</p>
+        </a>
+        <a href="https://docs.google.com/spreadsheets/d/1qsc-HMkinEQ60liWSCQayTgjcaVWLJKAzNUT0Vyf9u4/edit?usp=sharing" class="documents-card">
+          <img src="Picture/milk.png" alt="Milk">
+          <p>บันทึกการดื่มนม</p>
+        </a>
+        </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

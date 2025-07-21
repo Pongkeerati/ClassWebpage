@@ -1,0 +1,144 @@
+body {
+  font-family: "Playpen Sans Thai", "Sarabun", "Noto Sans Thai", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+h2 {
+  font-size: 50px;
+  text-shadow: 2px 2px 5px #000000;
+}
+
+header {
+  color: rgb(255, 255, 255);
+  padding: 1rem;
+  text-shadow: #000000;
+  text-align: center;
+  background-image: url('Picture/cover1.png'); 
+  background-size: cover;         
+  background-position: center;   
+  background-repeat: no-repeat;                            
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #ffffff;
+  color: #424552;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Playpen Sans Thai", "Sarabun", "Noto Sans Thai", sans-serif;
+}
+
+nav button:hover {
+  background: #ddd;
+}
+
+main {
+  padding: 2rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  justify-items: center;      
+  padding: 1rem;              
+  box-sizing: border-box;
+}
+
+.student-card {    
+  width: 100%;
+  max-width: 250px;           
+  background: #424552;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  box-sizing: border-box;   
+  color: rgb(255, 255, 255);
+}
+
+.student-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;          
+}
+
+.student-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  overflow: hidden;
+  transition: .3s ease;
+}
+
+.page {
+  display: none;
+}
+
+.icon {
+  vertical-align: middle;   
+  width: 130px;
+  height: 130px;
+  clip-path: circle();
+}
+
+.documents {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 3.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-items: center;  
+  justify-content: center;    
+  padding: 1rem;              
+  box-sizing: border-box;
+}
+
+.documents-card {
+  display: block;               
+  background: white;
+  border-radius: 20px;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+  text-decoration: none;        
+  color: inherit;               
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.documents-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.documents-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;          
+}
+
+.scroll-box {
+  width: 80%;
+  height: 150px;
+  padding: 1rem;
+  overflow: auto;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.2); 
+  font-family: "Playpen Sans Thai", "Sarabun", "Noto Sans Thai", sans-serif;
+  line-height: 1.5;
+}
+
