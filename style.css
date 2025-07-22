@@ -95,7 +95,7 @@ main {
 .documents {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: 1.5rem;
+  gap: 3.5rem;
   max-width: 1000px;
   margin: 0 auto;
   justify-items: center;  
